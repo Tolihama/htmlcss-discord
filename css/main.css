@@ -74,6 +74,10 @@ a {
     margin-right: 20px;
 }
 
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 .mb-40 {
     margin-bottom: 40px;
 }
@@ -93,6 +97,10 @@ a {
 
 .text-color-2 {
     color: #23272a;
+}
+
+.text-color-3 {
+    color: #7289da;
 }
 
 /* Buttons type */
@@ -146,6 +154,10 @@ a {
     background-color: #f6f6f6;
 }
 
+.bg-type-4 {
+    background-color: #23272a;
+}
+
 .bg-image-1 {
     background-image: url('../img/stars.svg');
     background-repeat: no-repeat;
@@ -196,4 +208,47 @@ a {
 
 .main-section section .text {
     width: 30%;
+}
+
+/* FOOTER */
+.top-footer .main-box {
+    width: 36%;
+}
+
+.top-footer h4 {
+    padding-right: 140px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.top-footer .main-box .language {
+    font-size: 14px;
+}
+
+.top-footer .main-box .language img {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.top-footer .main-box .social i {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.top-footer .main-box .social i:last-of-type {
+    margin-right: 0;
+}
+
+.top-footer .menu {
+    width: 16%;
+    list-style-type: none;
+}
+
+.top-footer .menu li {
+    padding: 5px 50px 5px 0;
+}
+
+.top-footer .menu li:first-of-type {
+    font-weight: 700;
+    color: #7289da;
 }
