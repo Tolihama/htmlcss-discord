@@ -7,6 +7,17 @@
     color: #fff;
 }
 
+h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
 a {
     text-decoration: none;
 }
@@ -16,9 +27,18 @@ a {
     width: 1200px;
 }
 
+.width-100vw {
+    width: 100vw;
+}
+
 .py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.py-150 {
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .mx-auto {
@@ -30,19 +50,46 @@ a {
     margin-right: 216px;
 }
 
+.mr-20 {
+    margin-right: 20px;
+}
+
+/* TEXT UTILITIES */
 .text-center {
     text-align: center;
 }
 
 /* Buttons type */
 .btn {
+    border-radius: 10rem;
+}
+
+.small-btn {
     padding: .5rem 1rem;
-    border-radius: 2rem;
+    font-size: 14px;
+}
+
+.big-btn {
+    padding: .8rem 1.2rem;
+    font-size: 18px;
 }
 
 .btn-type-1 {
     background: #fff;
     color: #333739;
+}
+
+.btn-type-2 {
+    background: #23272a;
+    color: #fff;
+}
+
+/* Icons */
+.btn-download::before {
+    content: '\f309';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 8px;
 }
 
 /* Background type */
@@ -72,4 +119,26 @@ a {
 
 .main-nav li:last-of-type {
     margin-right: 0;
+}
+
+/* Jumbo */
+.jumbo-image {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.jumbo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.jumbo-text {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
