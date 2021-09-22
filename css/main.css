@@ -211,6 +211,10 @@ a {
 }
 
 /* FOOTER */
+.top-footer {
+    border-bottom: 1px solid #4a5882;
+}
+
 .top-footer .main-box {
     width: 36%;
 }
@@ -251,4 +255,8 @@ a {
 .top-footer .menu li:first-of-type {
     font-weight: 700;
     color: #7289da;
+}
+
+.bottom-footer div {
+    width: 50%;
 }
