@@ -3,6 +3,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* UTILITIES */
+.width-1200 {
+    width: 1200px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.mx-216 {
+    margin-left: 216px;
+    margin-right: 216px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Buttons type */
+.btn {
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+}
+
+.btn-type-1 {
+    background: #fff;
+    color: #333739;
+}
+
+/* Background type */
+.bg-type-1 {
+    background-color: #3161e0;
+}
+
+/* NAV */
+.main-nav {
+    height: 80px;
+}
+
+.main-nav > * {
+    position: relative;
+    bottom: 5px;
+    vertical-align: middle;
+}
+
+.main-nav > *,
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li {
+    margin-right: 40px;
+}
+
+.main-nav li:last-of-type {
+    margin-right: 0;
+}
