@@ -47,6 +47,10 @@ a {
     width: 100vw;
 }
 
+.p-30 {
+    padding: 30px;
+}
+
 .py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -140,6 +144,13 @@ a {
 
 .bg-type-3 {
     background-color: #f6f6f6;
+}
+
+.bg-image-1 {
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50%;
 }
 
 /* NAV */
