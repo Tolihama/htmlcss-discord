@@ -190,11 +190,17 @@ a {
 }
 
 /* JUMBO */
-.jumbo {
+/* .jumbo {
     background-image: url('../img/jumbo.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+} */
+
+.jumbo-image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }
 
 .jumbo-text {
